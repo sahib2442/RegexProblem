@@ -20,5 +20,12 @@ namespace RegexProblemStatement
         {
             Pincode(pincopde);
         }
+        public void Pincode4(string pincode)
+        {
+            Regex regex = new Regex(PINCODE_REGEX);
+            bool result = regex.IsMatch(pincode);
+            Console.WriteLine(result);
+
+        }
     }
 }
