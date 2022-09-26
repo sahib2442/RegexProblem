@@ -16,5 +16,9 @@ namespace RegexProblemStatement
         {
             Pincode(pincode);
         }
+        public void Pincode3(string pincopde)
+        {
+            Pincode(pincopde);
+        }
     }
 }

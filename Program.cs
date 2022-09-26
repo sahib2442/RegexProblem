@@ -9,6 +9,7 @@ namespace RegexProblemStatement
             Validate validate = new Validate();
             validate.Pincode("400088");
             validate.Pincode("^400088");
+            validate.Pincode("400088");
         }
 
     }
