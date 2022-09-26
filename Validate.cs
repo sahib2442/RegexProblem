@@ -12,6 +12,9 @@ namespace RegexProblemStatement
             bool result = regex.IsMatch(pincode);
             Console.WriteLine(result);
         }
-        
+        public void Pincode2(string pincode)
+        {
+            Pincode(pincode);
+        }
     }
 }
